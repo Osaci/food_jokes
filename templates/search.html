@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %} Recipes searcher {% endblock %}
+{% block body %}
+<center>
+  <h6 style="padding-top: 3%;">
+       <br>
+      <small class="text-muted"> Let's warm up with a joke {{ joke }} </small>
+      <small class="text-muted"> and a trivia: {{ trivia }} </small>
+  </h2>
+  <br><br>
+  <form action="/recipes">
+      <div class="input-group mb-3" style="max-width: 50%;">
+         
+          <div class="input-group-append">
+              
+          </div>          
+      </div>
+  </form>
+</center>
+{% endblock %}
